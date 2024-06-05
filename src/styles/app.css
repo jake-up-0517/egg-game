@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Egg Font';
+  src: url('../fonts/egg-font.ttf') format('opentype');
+}
+
+.App {
+  text-align: center;
+  font-family: 'Egg Font';
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.game-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10vh;
+  background-color: rgb(183, 183, 183);
+  border: 7px solid black;
+  border-radius: 0 0 50px 50px;
+  width: 90vw;
+  height: 78vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.border-lines-container {
+  border-bottom: 5px solid black;
+}
+
+.border-lines-image {
+  width: 97%;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-top: 40px;
+}
+
+.popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position: absolute;
+}

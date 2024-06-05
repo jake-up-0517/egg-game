@@ -1,0 +1,18 @@
+.guy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17%;
+  border: 1px solid transparent;
+  user-select: none;
+  margin-left: 5%;
+}
+.guy-image,
+.guy-body {
+  width: 100%;
+}
+
+.guy-mouth {
+  width: 10%;
+  position: absolute;
+}

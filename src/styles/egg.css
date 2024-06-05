@@ -1,0 +1,12 @@
+.egg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  border: 1px solid transparent;
+  user-select: none;
+}
+
+.egg-image {
+  width: 100%;
+}

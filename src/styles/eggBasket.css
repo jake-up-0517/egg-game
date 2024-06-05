@@ -1,0 +1,13 @@
+.basket-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 17%;
+  user-select: none;
+  margin-right: 5%;
+}
+.basket-image {
+  margin-bottom: 10px;
+  width: 100%;
+}
